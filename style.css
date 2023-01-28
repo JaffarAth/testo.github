@@ -1,0 +1,32 @@
+body{
+    font-family: 'Playfair Display', sans-serif;
+}
+header{
+    text-align: center;
+    margin-top: 32px;
+}
+#title{
+    letter-spacing: 1rem;
+    margin: auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.baris{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    border-radius: 6px;
+}
+footer{
+    color: white;
+    background-color: #0c0152;
+    text-align: center;
+    padding: 10px;
+}
